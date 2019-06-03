@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Courage the cowardly dog</title>
+</head>
+<body>
+<h1>Courage the cowardly dog</h1>
+<p>Hi, I'm a brave dog. Woof!</p>
+<img src="https://images-na.ssl-images-amazon.com/images/I/41xgjPGILRL.jpg">
+<h3>Some of my favourite places</h3>
+<ul>
+	<li>The beach</li>
+	<li>The dog park</li>
+	<li>The fire hydrant</li>
+</ul>
+<p>Make sure to follow me on <a href="https://www.instagram.com">Instagram</a></p>
+</body>
+</html>
