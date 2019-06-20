@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score keeper</title>
+
+    <style>
+        .score-achieved{ 
+        color: green;
+    }
+    </style>
+    
+</head>
+<body>
+<!--span is used inline, div is block-line (there is a break before and after it)-->
+<h1><span id="score1">0</span> to <span id="score2">0</span></h1>    
+<label for="scoremax">Playing to: <span>5</span></p>
+<form>
+    <input type="number" id="scoremax" min="1" name="scoremax">
+    <input type="button" id="player1" value="Player 1">
+    <input type="button" id="player2" value="Player 2">
+    <input type="button" id="reset" value="Reset">
+</form>
+
+
+
+    <!--script has to be put after all tags are loaded-->
+    <script src="score.js"></script>
+</body>
+</html>
