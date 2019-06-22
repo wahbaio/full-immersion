@@ -1,0 +1,52 @@
+h1{
+    font-family: 'Delius Unicase', cursive;
+}
+
+h1{
+	width:100%; /*Add this*/
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+
+table{
+	width:300px;
+	height:300px;
+	margin: 0px auto;
+
+}
+
+#firstrow td:nth-of-type(1){
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#secondrow td:nth-of-type(1){
+	border: 1px solid black;
+	border-left: 1px solid white;
+}
+
+/**/
+#firstrow td:nth-of-type(2){
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#secondrow td:nth-of-type(2){
+	border: 1px solid black;
+
+}
+
+
+/**/
+#firstrow td:nth-of-type(3){
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#secondrow td:nth-of-type(3){
+	border: 1px solid black;
+	border-right: 1px solid white;
+}
