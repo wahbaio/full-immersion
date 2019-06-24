@@ -1,14 +1,45 @@
-h1{
+/*sets the default color of background and of the text*/
+body{
     font-family: 'Delius Unicase', cursive;
+    font-size: 10px;
+    color: aliceblue;
+    background-color: darkslategrey;
 }
 
 h1{
-	width:100%; /*Add this*/
-	margin: 0px auto;
+    width:100%; /*Add this*/
+    font-size: 2.5em;
+	/*margin: 0px auto;*/
 	text-align: center;
+}
+
+/*select the text: "RGB(...)"*/
+h1 div:nth-of-type(2){
+    font-size: 3em;    
+}
+
+p{
+	width:100%; /*Add this*/
+	/*margin: 0px auto;*/
+	/*text-align: center;*/
 	
 }
 
+#new-color{
+    text-align: left;
+}
+
+#tentative{
+    text-align: center;
+}
+
+#easy{
+    text-align: right;
+}
+
+#easy{
+    text-align: right;
+}
 
 table{
 	width:300px;
